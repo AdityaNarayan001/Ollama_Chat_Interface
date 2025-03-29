@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ollama Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Ollama Chat Interface</h1>
+        </header>
+
+        <div class="model-selection">
+            <h2>Available Models</h2>
+            <div id="model-list" class="model-list">
+                <p>Loading models...</p>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages"></div>
+
+            <div class="chat-input-container">
+                <textarea id="user-input" placeholder="Type your message here..." rows="3"></textarea>
+                <button id="send-button" disabled>Send</button>
+            </div>
+        </div>
+
+        <div class="status-bar">
+            <p>Selected model: <span id="selected-model">None</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
