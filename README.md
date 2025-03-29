@@ -45,6 +45,7 @@ A simple web-based interface for interacting with Ollama models. This applicatio
 
 - **Model Selection**: View and select from all available Ollama models
 - **Chat Interface**: Simple and intuitive chat interface
+- **Dark Theme**: Modern dark color scheme for reduced eye strain and better readability
 - **Enhanced Formatting**:
   - **Code Block Formatting**: Properly formats code blocks with language labels
   - **List Formatting**: Formats bullet points and numbered lists for better readability
